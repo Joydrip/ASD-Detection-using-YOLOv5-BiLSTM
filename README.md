@@ -451,7 +451,7 @@ Evaluation included:
 ## 📈 Performance Summary
 
 <p align="center">
-<img src="images/performance_summary.png" width="500">
+<img src="images/performance_summary.png" width="300">
 </p>
 
 ---
