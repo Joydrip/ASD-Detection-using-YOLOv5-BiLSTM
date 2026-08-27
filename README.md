@@ -4,11 +4,17 @@
 
 **An AI-assisted computer vision framework for ASD screening using facial video sequences and temporal behavioral analysis**
 
-</p>
 
-<p align="center">
 
-<img src="images/methodology_pipeline.png" width="750">
+
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+[![YOLOv5](https://img.shields.io/badge/Object%20Detection-YOLOv5-orange)](#yolov5--face-detection)
+[![BiLSTM](https://img.shields.io/badge/Sequence%20Learning-BiLSTM-purple)](#bilstm--temporal-analysis)
+[![Computer Vision](https://img.shields.io/badge/Computer%20Vision-Facial%20Analysis-green)](#data-preprocessing)
+[![Accuracy](https://img.shields.io/badge/Test%20Accuracy-92%25-success)](#results)
+[![Dataset](https://img.shields.io/badge/Dataset-Custom%20ASD%20Dataset-blueviolet)](#dataset)
+[![IEEE](https://img.shields.io/badge/Publications-IEEE-blue?logo=ieee)](https://ieeexplore.ieee.org/abstract/document/10963004)
+[![Project](https://img.shields.io/badge/Project-Academic%20Research-yellow)](#)
 
 </p>
 
@@ -275,7 +281,7 @@ This was an important step toward obtaining a more reliable estimate of model ge
 ## YOLOv5 + BiLSTM
 
 <p align="center">
-<img src="images/methodology_pipeline.png" width="700">
+<img src="images/methodology_pipeline.png" width="500">
 </p>
 
 The proposed pipeline can be summarized as:
@@ -447,7 +453,7 @@ Evaluation included:
 ## 📈 Performance Summary
 
 <p align="center">
-<img src="images/performance_summary.png" width="600">
+<img src="images/performance_summary.png" width="200">
 </p>
 
 ---
@@ -455,7 +461,7 @@ Evaluation included:
 ## 🔲 Confusion Matrix
 
 <p align="center">
-<img src="images/confusion_matrix.png" width="550">
+<img src="images/confusion_matrix.png" width="250">
 </p>
 
 The confusion matrix provides a class-wise view of correct and incorrect predictions for ASD and Non-ASD samples.
@@ -465,7 +471,7 @@ The confusion matrix provides a class-wise view of correct and incorrect predict
 ## 📈 ROC Curve
 
 <p align="center">
-<img src="images/roc_curve.png" width="600">
+<img src="images/roc_curve.png" width="200">
 </p>
 
 The ROC curve represents the relationship between the **True Positive Rate** and **False Positive Rate** at different classification thresholds.
@@ -475,7 +481,7 @@ The ROC curve represents the relationship between the **True Positive Rate** and
 ## 📊 Precision-Recall Curve
 
 <p align="center">
-<img src="images/precision_recall_curve.png" width="600">
+<img src="images/precision_recall_curve.png" width="200">
 </p>
 
 The Precision-Recall curve demonstrates the trade-off between precision and recall across different classification thresholds.
@@ -487,7 +493,7 @@ The Precision-Recall curve demonstrates the trade-off between precision and reca
 ## Training – ASD
 
 <p align="center">
-<img src="images/train_asd_samples.png" width="700">
+<img src="images/train_asd_samples.png" width="500">
 </p>
 
 Example samples from the ASD training dataset.
@@ -497,7 +503,7 @@ Example samples from the ASD training dataset.
 ## Testing – Non-ASD
 
 <p align="center">
-<img src="images/test_non_asd_samples.png" width="700">
+<img src="images/test_non_asd_samples.png" width="500">
 </p>
 
 Example samples from the Non-ASD testing dataset.
