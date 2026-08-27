@@ -280,9 +280,7 @@ This was an important step toward obtaining a more reliable estimate of model ge
 
 ## YOLOv5 + BiLSTM
 
-<p align="center">
-<img src="images/methodology_pipeline.png" width="500">
-</p>
+
 
 The proposed pipeline can be summarized as:
 
