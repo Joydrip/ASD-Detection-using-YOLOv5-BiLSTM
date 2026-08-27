@@ -451,7 +451,7 @@ Evaluation included:
 ## 📈 Performance Summary
 
 <p align="center">
-<img src="images/performance_summary.png" width="200">
+<img src="images/performance_summary.png" width="500">
 </p>
 
 ---
@@ -459,7 +459,7 @@ Evaluation included:
 ## 🔲 Confusion Matrix
 
 <p align="center">
-<img src="images/confusion_matrix.png" width="250">
+<img src="images/confusion_matrix.png" width="400">
 </p>
 
 The confusion matrix provides a class-wise view of correct and incorrect predictions for ASD and Non-ASD samples.
@@ -469,7 +469,7 @@ The confusion matrix provides a class-wise view of correct and incorrect predict
 ## 📈 ROC Curve
 
 <p align="center">
-<img src="images/roc_curve.png" width="200">
+<img src="images/roc_curve.png" width="500">
 </p>
 
 The ROC curve represents the relationship between the **True Positive Rate** and **False Positive Rate** at different classification thresholds.
@@ -479,7 +479,7 @@ The ROC curve represents the relationship between the **True Positive Rate** and
 ## 📊 Precision-Recall Curve
 
 <p align="center">
-<img src="images/precision_recall_curve.png" width="200">
+<img src="images/precision_recall_curve.png" width="500">
 </p>
 
 The Precision-Recall curve demonstrates the trade-off between precision and recall across different classification thresholds.
