@@ -448,11 +448,15 @@ Evaluation included:
 
 ---
 
-##  Performance Summary
+##  Model Performance
 
-<p align="center">
-<img src="images/performance_summary.png" width="300">
-</p>
+| Metric | Score |
+| :--- | :---: |
+|  **Accuracy** | **92.00%** |
+|  **Precision (ASD)** | **0.91** |
+|  **Recall (ASD)** | **0.90** |
+|  **F1-Score (ASD)** | **0.90** |
+|  **AUC-ROC** | **0.96** |
 
 ---
 
