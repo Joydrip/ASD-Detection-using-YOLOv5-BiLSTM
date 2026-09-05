@@ -1,4 +1,4 @@
-# 🧠 Autism Spectrum Disorder Detection using YOLOv5 & BiLSTM
+#  Autism Spectrum Disorder Detection using YOLOv5 & BiLSTM
 
 <p align="center">
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Autism Spectrum Disorder (ASD) is a complex neurodevelopmental condition in which behavioral characteristics can vary significantly between individuals. Conventional assessment involves detailed behavioral observation and clinical evaluation.
 
@@ -36,11 +36,11 @@ The proposed framework combines:
 
 Rather than analyzing each facial image independently, the system attempts to learn both **facial characteristics and temporal behavioral patterns** from sequences of frames.
 
-> ⚠️ **This is an academic/research prototype and is not intended to replace professional clinical diagnosis.**
+>  **This is an academic/research prototype and is not intended to replace professional clinical diagnosis.**
 
 ---
 
-# 🎯 Motivation
+#  Motivation
 
 The motivation for this work came from studying existing research on the application of **Machine Learning, Computer Vision, facial analysis, eye-tracking, behavioral analysis, and other AI techniques for ASD screening**.
 
@@ -48,7 +48,7 @@ As part of this research, we conducted a literature review covering existing cli
 
 This work resulted in the publication of our review paper:
 
-### 📖 Research Publication
+###  Research Publication
 
 **"Exploring Machine Learning Approaches for Diagnosing Autism Spectrum Disorder: Insights from Clinical and Technological Approaches"**
 
@@ -65,7 +65,7 @@ https://ieeexplore.ieee.org/abstract/document/10963004
 
 ---
 
-# 🚀 Project Objective
+#  Project Objective
 
 The primary objective is to develop an AI-assisted system capable of distinguishing between:
 
@@ -85,7 +85,7 @@ The project focuses particularly on combining **spatial facial information** wit
 
 ---
 
-# ⭐ Key Idea / USP
+#  Key Idea / USP
 
 A major limitation of analyzing individual facial images is that an image represents only a **single moment in time**.
 
@@ -137,7 +137,7 @@ This spatial-temporal combination is the central idea of the project.
 
 ---
 
-# 🧪 Dataset
+#  Dataset
 
 A custom ASD dataset was collected from an **autism care centre in Shyamnagar**.
 
@@ -173,7 +173,7 @@ ASD facial Data/
 
 ---
 
-# 🎥 Video Frame Extraction
+#  Video Frame Extraction
 
 For every ASD video, approximately **15–18 uniformly distributed frames** were extracted.
 
@@ -194,7 +194,7 @@ Uniform sampling allows the system to capture different moments throughout the v
 
 ---
 
-# 🧹 Data Preprocessing
+#  Data Preprocessing
 
 The preprocessing pipeline consists of:
 
@@ -238,7 +238,7 @@ Model Input
 
 ---
 
-# 🔀 Person-Wise Data Splitting
+#  Person-Wise Data Splitting
 
 One of the most important aspects of this project was preventing **data leakage**.
 
@@ -276,7 +276,7 @@ This was an important step toward obtaining a more reliable estimate of model ge
 
 ---
 
-# 🏗️ Model Architecture
+#  Model Architecture
 
 ## YOLOv5 + BiLSTM
 
@@ -317,7 +317,7 @@ ASD / Non-ASD
 
 ---
 
-# 👁️ YOLOv5 – Face Detection
+#  YOLOv5 – Face Detection
 
 **YOLOv5 (You Only Look Once)** is used as the computer vision component of the pipeline.
 
@@ -342,7 +342,7 @@ YOLOv5 was selected because of its efficient object detection capabilities and s
 
 ---
 
-# 🔄 BiLSTM – Temporal Analysis
+#  BiLSTM – Temporal Analysis
 
 After processing individual frames, the extracted information is organized into a sequence.
 
@@ -381,7 +381,7 @@ The model can therefore learn changes in facial information across time rather t
 
 ---
 
-# 🧮 Classification Layer
+#  Classification Layer
 
 The learned representation from the BiLSTM is passed through fully connected layers.
 
@@ -408,7 +408,7 @@ The sigmoid produces a value between **0 and 1**, representing the model's confi
 
 ---
 
-# ⚙️ Training
+#  Training
 
 The model was trained as a binary classification problem.
 
@@ -428,7 +428,7 @@ Data augmentation and regularization techniques were used to reduce overfitting.
 
 ---
 
-# 📊 Results
+#  Results
 
 The developed model achieved approximately:
 
@@ -448,7 +448,7 @@ Evaluation included:
 
 ---
 
-## 📈 Performance Summary
+##  Performance Summary
 
 <p align="center">
 <img src="images/performance_summary.png" width="300">
@@ -456,7 +456,7 @@ Evaluation included:
 
 ---
 
-## 🔲 Confusion Matrix
+##  Confusion Matrix
 
 <p align="center">
 <img src="images/confusion_matrix.png" width="400">
@@ -466,7 +466,7 @@ The confusion matrix provides a class-wise view of correct and incorrect predict
 
 ---
 
-## 📈 ROC Curve
+##  ROC Curve
 
 <p align="center">
 <img src="images/roc_curve.png" width="500">
@@ -476,7 +476,7 @@ The ROC curve represents the relationship between the **True Positive Rate** and
 
 ---
 
-## 📊 Precision-Recall Curve
+##  Precision-Recall Curve
 
 <p align="center">
 <img src="images/precision_recall_curve.png" width="500">
@@ -486,7 +486,7 @@ The Precision-Recall curve demonstrates the trade-off between precision and reca
 
 ---
 
-# 🖼️ Sample Data
+#  Sample Data
 
 ## Training – ASD
 
@@ -510,7 +510,7 @@ Example samples from the Non-ASD testing dataset.
 
 ---
 
-# 📁 Repository Structure
+#  Repository Structure
 
 ```text
 ASD-Detection-using-YOLOv5-BiLSTM/
@@ -536,7 +536,7 @@ ASD-Detection-using-YOLOv5-BiLSTM/
 
 ---
 
-# 💻 Implementation
+#  Implementation
 
 The complete experimental notebook is available at:
 
@@ -554,7 +554,7 @@ The `images/` directory contains the methodology, sample data, and evaluation vi
 
 ---
 
-# 🛠️ Technologies
+#  Technologies
 
 | Technology | Application |
 |---|---|
@@ -570,7 +570,7 @@ The `images/` directory contains the methodology, sample data, and evaluation vi
 
 ---
 
-# 🔬 Research Background
+#  Research Background
 
 This project was developed following a review of previous research in **AI-assisted ASD screening and diagnosis**.
 
@@ -587,123 +587,10 @@ Our literature study investigated different computational approaches including:
 
 The findings from this research helped inform the direction of the current project, particularly the use of visual and behavioral information for automated screening.
 
-### 📖 Our Published Review Paper
-
-**Exploring Machine Learning Approaches for Diagnosing Autism Spectrum Disorder: Insights from Clinical and Technological Approaches**
-
-**IEEE – 2025 AI-Driven Smart Healthcare for Society 5.0**
-
-🔗 **[Read the paper on IEEE Xplore](https://ieeexplore.ieee.org/abstract/document/10963004)**
-
-DOI:
-
-```text
-10.1109/IEEECONF64992.2025.10963004
-```
 
 ---
 
-# 🧠 Key Learning Outcomes
-
-This project provided practical experience in:
-
-- Computer Vision
-- Object Detection
-- Deep Learning
-- Video Processing
-- Temporal Sequence Modeling
-- BiLSTM Networks
-- Dataset Creation
-- Data Preprocessing
-- Data Augmentation
-- Data Leakage Detection
-- Person-Wise Dataset Splitting
-- Model Evaluation
-- Research and Literature Review
-
-One of the most important lessons from this project was:
-
-> **A high accuracy score does not necessarily mean a reliable machine learning model.**
-
-Proper dataset construction, subject-independent evaluation, and leakage prevention are essential for meaningful results.
-
----
-
-# 🚧 Challenges
-
-### 1. Limited Dataset Size
-
-The dataset is relatively small compared with the datasets normally used to train large deep learning models.
-
-### 2. Video Redundancy
-
-Consecutive video frames can contain nearly identical information.
-
-**Solution:** 15–18 uniformly distributed frames were selected from each video.
-
-### 3. Face Detection
-
-Variations in lighting, pose, and image quality can affect face detection.
-
-**Solution:** YOLOv5 was used for automated face localization.
-
-### 4. Data Leakage
-
-Images belonging to the same person can be highly similar.
-
-**Solution:** Person-wise train-test splitting.
-
-### 5. Overfitting
-
-A small dataset can cause the model to memorize training examples.
-
-**Solution:** Data augmentation, regularization, and careful evaluation.
-
----
-
-# 🔮 Future Scope
-
-The project can be extended through:
-
-### 📈 Larger and More Diverse Dataset
-
-Collecting data from a larger number of participants and different environments.
-
-### 👁️ Eye-Gaze Analysis
-
-Integrating dedicated eye-tracking information to analyze gaze behavior.
-
-### 🎙️ Multimodal Analysis
-
-Combining:
-
-```text
-Facial Features
-      +
-Eye Gaze
-      +
-Speech
-      +
-Body/Posture
-```
-
-to create a more comprehensive behavioral representation.
-
-### ⚡ Real-Time Processing
-
-Optimizing the pipeline for real-time video-based screening.
-
-### 🧠 Explainable AI
-
-Using techniques such as attention visualization and Grad-CAM-style methods to understand which features influence predictions.
-
-### 🌍 External Validation
-
-Testing the system on independent datasets to determine how well it generalizes to unseen populations and environments.
-
----
-
-# ⚠️ Medical & Ethical Disclaimer
+#  Medical & Ethical Disclaimer
 
 This project is developed for **academic and research purposes**.
 
@@ -715,7 +602,7 @@ Because the project involves sensitive facial data, appropriate consent, privacy
 
 ---
 
-# 👨‍💻 Author
+#  Author
 
 ### Joydeep Sarkar
 
@@ -724,27 +611,7 @@ Institute of Engineering & Management, Kolkata
 
 ---
 
-# ⭐ Project Highlights
-
-```text
-✓ Custom ASD Dataset
-✓ ASD Care Centre Data Collection
-✓ Literature Review & IEEE Publication
-✓ YOLOv5 Face Detection
-✓ 15–18 Frame Video Sampling
-✓ BiLSTM Temporal Analysis
-✓ Person-Wise Dataset Splitting
-✓ Data Leakage Prevention
-✓ Deep Learning Classification
-✓ 92% Test Accuracy
-✓ ROC Analysis
-✓ Precision-Recall Analysis
-✓ Confusion Matrix Evaluation
-```
-
----
-
-## 📜 License
+##  License
 
 This repository is intended for **academic and research purposes**.
 
